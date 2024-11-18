@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="view/assets/admin.css">
+</head>
+
+<body>
+    <nav>
+        <a class="ctrl" href="#"><i class="fa-brands fa-windows"></i> Adminitrator</a>
+        <ul class="nav-bar">
+            <li>
+                <a class="nav-item" href="#"><i class="fa-solid fa-arrow-left-long"></i> Vào Website</a>
+            </li>
+            <li>
+                <a class="nav-item" href="#"><i class="fa-solid fa-arrow-right-to-bracket"></i> Đăng Xuất</a>
+            </li>
+        </ul>
+    </nav>
+    <aside>
+        <div class="side-bar">
+            <details>
+                <summary><i class="fa-solid fa-list"></i> Quản Trị Danh Mục</summary>
+                <ul>
+                    <li>
+                        <a href="#"><i class="fa-solid fa-plus"></i> Thêm Danh Mục</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-solid fa-list-ol"></i> Danh Sách Danh Mục</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-regular fa-pen-to-square"></i> Cập Nhật Danh Mục</a>
+                    </li>
+                </ul>
+            </details>
+
+            <details id="sanPham">
+                <summary><i class="fa-brands fa-dropbox"></i> Quản Trị Sản Phẩm</summary>
+                <ul>
+                    <li>
+                        <a href="#"><i class="fa-solid fa-plus"></i> Thêm Sản Phẩm</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-solid fa-list-ol"></i> Danh Sách Sản Phẩm</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-regular fa-pen-to-square"></i> Cập Nhật Sản Phẩm</a>
+                    </li>
+                </ul>
+            </details>
+
+            <details id="taiKhoan">
+                <summary><i class="fa-solid fa-user"></i> Quản Trị Tài Khoản</summary>
+                <ul>
+                    <li>
+                        <a href="#"><i class="fa-solid fa-plus"></i> Thêm Tài Khoản</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-solid fa-list-ol"></i> Danh Sách Tài Khoản</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-regular fa-pen-to-square"></i> Cập Nhật Tài Khoản</a>
+                    </li>
+                </ul>
+            </details>
+
+            <details id="binhLuan">
+                <summary><i class="fa-regular fa-comment-dots"></i> Quản Trị Bình Luận</summary>
+                <ul>
+                    <li>
+                        <a href="#"><i class="fa-solid fa-list-ol"></i> Danh Sách Bình Luận</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-regular fa-pen-to-square"></i> Cập Nhật Bình Luận</a>
+                    </li>
+                </ul>
+            </details>
+
+            <details id="slider">
+                <summary><i class="fa-regular fa-image"></i> Quản Trị Slider</summary>
+                <ul>
+                    <li>
+                        <a href="#"><i class="fa-solid fa-plus"></i> Thêm Slider</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-solid fa-list-ol"></i> Danh Sách Slider</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-regular fa-pen-to-square"></i> Cập Nhật Slider</a>
+                    </li>
+                </ul>
+            </details>
+
+            <details id="thongKe">
+                <summary><i class="fa-solid fa-chart-line"></i> Thống Kê</summary>
+                <ul>
+                    <li>
+                        <a href="#"><i class="fa-solid fa-chart-line"></i> Thống Kê</a>
+                    </li>
+                </ul>
+            </details>
+        </div>
+    </aside>
+</body>
+
+</html>
