@@ -1,0 +1,168 @@
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container1 {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+form {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 50%;
+}
+
+.register-title h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.register-social-media {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+.register-social-media a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    text-decoration: none;
+    transition: background 0.5s ease, transform 0.5s ease;
+}
+
+.register-social-media a:hover {
+    background-color: #f1f1f1;
+    transform: scale(1.05);
+}
+
+.register-social-media img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+
+.register-social-media p {
+    font-size: 16px;
+    color: #555;
+}
+
+.register-separator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.register-separator p {
+    margin: 0 15px;
+    font-size: 16px;
+    color: #555;
+}
+
+.register-separator::before,
+.register-separator::after {
+    content: "";
+    width: 25%;
+    height: 1px;
+    background-color: #ddd;
+}
+.register-input {
+    width: 80%;
+    margin: 0 auto;
+}
+.input-group {
+    margin: 15px 0;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.input-group input:focus {
+    border-color: #007bff;
+}
+.input-group p {
+    color: #333;
+    font-size: 12px;
+    margin-top: 5px;
+    font-style: italic;
+}
+.checkbox-row {
+    margin-top: 20px;
+}
+.checkbox-row label {
+    display: block;
+    font-size: 16px;
+    color: #555;
+    margin-top: 15px;
+    font-size: 13px;
+    text-align: left;
+}
+
+.checkbox-row input[type="checkbox"] {
+    margin-right: 8px;
+    vertical-align: middle;
+}
+.register-submit {
+    margin-top: 20px;
+}
+
+.register-submit button {
+    width: 100%;
+    padding: 12px;
+    background-color: #e0052b;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.register-submit button:hover {
+    background-color: #b0001d;
+}
+
+.login-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+.login-link a {
+    text-decoration: none;
+    color: #e00000;
+    font-weight: 500;
+}

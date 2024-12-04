@@ -1,0 +1,50 @@
+.danhgia {
+    margin-top: 10px;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.danhgia form {
+    display: flex;
+    /* align-items: center; */
+    align-items: flex-end;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+#userInput {
+    padding: 15px 12px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #333;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+#userInput:focus {
+    border-color: #007bff;
+}
+.danhgia button {
+    padding: 8px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+
+.danhgia button:hover {
+    background-color: #0056b3;
+    transform: translateY(-1px);
+}
+
+.danhgia button:active {
+    transform: translateY(0);
+}

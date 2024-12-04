@@ -1,0 +1,104 @@
+.order-box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 15px;
+  border: 1px solid #edecec;
+  border-radius: 8px;
+  background-color: #fff;
+  margin-bottom: 10px;
+}
+
+.oder-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.info-detail {
+  margin-bottom: 10px;
+}
+
+.order-note h3 {
+  margin: 7px;
+}
+.order-note input {
+  width: 25%;
+  background-color: white;
+  border: 1px solid #e3e3e3;
+}
+
+.product-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.product-details {
+  flex: 1;
+}
+
+.product-name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+  margin: 0;
+}
+
+.product-category,
+.product-quantity {
+  font-size: 14px;
+  color: #666;
+  margin: 5px 0;
+}
+
+.oder-status-comment {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.product-status {
+  font-size: 14px;
+  color: #000;
+}
+
+.status-label {
+  font-weight: bold;
+  font-size: 16px;
+  color: #26aa99;
+}
+
+.final {
+  display: flex;
+  gap: 10px;
+}
+
+.review-btn {
+  padding: 8px 15px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.review-btn:hover {
+  background-color: #0056b3;
+}
+
+p {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.total-price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #2ecc71;
+  text-align: right;
+  margin-top: 10px;
+}

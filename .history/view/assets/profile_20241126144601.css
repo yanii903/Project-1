@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.all {
+    width: 70%;
+    margin: 20px auto;
+    display: flex;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+aside {
+    width: 30%;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-right: 1px solid #ddd;
+}
+
+.profile {
+    text-align: center;
+}
+
+.avatar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.avatar img {
+    width: 80px; /* Tăng kích thước ảnh */
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.avatar h2 {
+    font-size: 22px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.profile ul {
+    list-style-type: none;
+    margin-top: 20px;
+    padding: 0;
+}
+
+.profile li {
+    margin: 10px 0;
+}
+
+.profile li a {
+    text-decoration: none;
+    color: #555;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    padding: 12px;
+    border-radius: 5px;
+    background-color: #fff;
+    transition: all 0.3s ease;
+    border: 1px solid #ddd;
+}
+
+.profile li a:hover {
+    background-color: #000;
+    color: #fff;
+    border-color: #000;
+}
+
+article {
+    width: 70%;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+/* hồ sơ */
+.container-update {
+    max-width: 600px;
+    margin: auto;
+}
+
+.container-update h1 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.container-update .subtitle {
+    text-align: center;
+    font-size: 15px;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+.container-update .row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.container-update label {
+    width: 30%;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.container-update .info {
+    width: 70%;
+    padding: 10px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+/* đơn mua */
+
+h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.order-full {
+    display: flex !important;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.order-item {
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0px 1px gray;
+}
+.order-box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.oder-info {
+    width: 80%;
+    display: flex;
+    gap: 10px;
+}
+
+.product-image {
+    width: 100px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.product-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.product-category,
+.product-quantity,
+.product-price {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 3px;
+}
+
+.oder-status-comment {
+    width: 100%;
+    display: flex;
+}
+
+.product-status {
+    width: 100%;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.status-label {
+    font-size: 15px;
+    font-weight: bold;
+    color: #26aa99;
+}
+
+.review-btn {
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.review-btn:hover {
+    background-color: #0056b3;
+}
+.oder-status-comment .final {
+    display: flex;
+    /* width: 50%; */
+    justify-content: flex-end;
+    /* flex-direction: column; */
+    gap: 5px;
+}

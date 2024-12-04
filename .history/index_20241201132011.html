@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Custom Radio Button</title>
+        <style>
+            /* Ẩn radio button mặc định */
+            input[type="radio"] {
+                display: none;
+            }
+
+            /* Thiết lập cho nhãn của radio button */
+            input[type="radio"] + label {
+                display: inline-block;
+                width: 120px; /* Đặt kích thước cho hình chữ nhật */
+                height: 40px;
+                border: 2px solid #000;
+                border-radius: 10px; /* Bo tròn góc */
+                cursor: pointer;
+                position: relative;
+                text-align: center;
+                line-height: 40px; /* Căn giữa văn bản theo chiều dọc */
+                font-size: 14px; /* Kích thước chữ */
+            }
+
+            /* Thay đổi màu nền khi radio button được chọn */
+            input[type="radio"]:checked + label {
+                background: #000;
+                color: #fff;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Custom Radio Button</h1>
+
+        <input type="radio" id="option1" name="option" value="Option 1" />
+        <label for="option1">Tùy chọn 1</label>
+
+        <input type="radio" id="option2" name="option" value="Option 2" />
+        <label for="option2">Tùy chọn 2</label>
+
+        <input type="radio" id="option3" name="option" value="Option 3" />
+        <label for="option3">Tùy chọn 3</label>
+    </body>
+</html>

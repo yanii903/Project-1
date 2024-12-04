@@ -1,0 +1,116 @@
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.footer {
+    box-shadow: 0 0 10px rgb(202, 202, 202);
+    margin-top: 20px;
+}
+.container-footer {
+    width: 70%;
+    margin: auto;
+    padding: 20px 0;
+    /* background-color: rgb(198, 245, 245); */
+}
+ul {
+    list-style: none;
+    padding: 0 5px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+.footer-col li {
+    margin-bottom: 5px;
+}
+.footer-col a {
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+}
+.footer-col-hotline li {
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+}
+.footer-col .platforms-social {
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-col .platforms-social img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+.footer-col .platforms-social a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border: 1px solid rgb(223, 223, 223);
+    border-radius: 3px;
+    margin: 0 15px 15px 0;
+}
+.footer-col .contract h4 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    margin-top: 10px;
+}
+.footer-col .contract p {
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+}
+.footer-col .contract img {
+    width: 20%;
+}
+.footer-col-pay-app {
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-col-pay img {
+    margin-top: 5px;
+}
+.footer-col-pay h4 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    margin-top: 20px;
+}
+
+.footer-col-pay img {
+    width: 40px;
+    height: auto;
+    object-fit: contain;
+}
+.footer-col-pay a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 35px;
+    border: 1px solid rgb(222, 222, 222);
+    border-radius: 3px;
+    margin: 0 15px 15px 0;
+}
+/* copyright */
+.copyright {
+    font-size: 13px;
+    text-align: center;
+    padding: 10px;
+    border-top: solid 1px #373a43;
+    margin-top: 20px;
+}
